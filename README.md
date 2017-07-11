@@ -5,6 +5,7 @@
 The pi-topPULSE accessory is available to purchase from the [pi-top website](https://pi-top.com/products/accessories).
 
 ## Table of Contents
+* [Quick Start](#quick-start)
 * [Hardware Overview](#hardware)
 * [Software](#software)
     * [pi-topPULSE on pi-topOS](#software-pt-os)
@@ -17,6 +18,26 @@ The pi-topPULSE accessory is available to purchase from the [pi-top website](htt
 	* [Links](#support-links)
 	* [Troubleshooting](#support-troubleshooting)
 
+## Quick Start <a name="quick-start"></a>
+### pi-topOS
+* Boot into pi-topOS (released on or after 13-07-2017)
+* Plug in pi-topPULSE
+* Follow on-screen instructions, if necessary
+* Enjoy!
+
+### Raspbian
+* Boot into Raspbian
+* Run the following commands in the terminal (with an internet connection):
+
+```
+sudo apt-get update
+sudo apt-get install pt-pulse
+```
+
+* Plug in pi-topPULSE
+* Follow on-screen instructions, if necessary
+* Enjoy!
+
 ## Hardware Overview <a name="hardware"></a>
 
 pi-topPULSE is a 7x7 LED array, a speaker and a microphone. Additionally the device features ambient lights which reflect the state of the LED array, 4 around the speaker, and 3 on the underside. pi-topPULSE uses a variety of interfaces to communicate with the Raspberry Pi: the speaker uses I2S, and the LEDs and microphone use serial (UART) - Tx and Rx respectively. pi-topPULSE can be used either as a HAT or as pi-top addon.
@@ -26,7 +47,7 @@ pi-topPULSE is a 7x7 LED array, a speaker and a microphone. Additionally the dev
 ## Software <a name="software"></a>
 ### pi-topPULSE on pi-topOS <a name="software-pt-os"></a>
 
-All pi-topPULSE software and libraries are included and configured 'out-of-the-box' as standard on the latest version of pi-topOS (13-07-2017). Simply connect a pi-topPULSE to your pi-top, reboot if instructed to do so, and it will be automatically initialised and ready to produce light, capture and play audio. Volume control is handled by the operating system.
+All pi-topPULSE software and libraries are included and configured 'out-of-the-box' as standard on pi-topOS (released on or after 13-07-2017). Simply connect a pi-topPULSE to your pi-top, reboot if instructed to do so, and it will be automatically initialised and ready to produce light, capture and play audio. Volume control is handled by the operating system.
 
 Download the latest version of pi-topOS at [https://pi-top.com/products/dashboard#download](https://pi-top.com/products/dashboard#download).
 
