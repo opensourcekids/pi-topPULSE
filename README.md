@@ -26,7 +26,6 @@ The pi-topPULSE accessory is available to purchase from the [pi-top website](htt
 * Enjoy!
 
 ### Raspbian
-* Boot into Raspbian
 * Run the following commands in the terminal (with an internet connection):
 
 ```
