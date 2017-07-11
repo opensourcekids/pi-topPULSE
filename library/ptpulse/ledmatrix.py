@@ -199,7 +199,14 @@ def _get_rotated_pixel_map():
     
     rotated_pixel_map = deepcopy(_pixel_map)
 
-    for x in range((int(_rotation / 90) + 3) % 4):
+    # Some fancy maths to rotate pixel map so that
+    # 0,0 (x,y) - with rotation 0 - is the bottom left LED
+    scaled_rotation = int(_rotation / 90)
+    adjusted_scaled_rotation = (scaled_rotation + 1)
+    modulo_adjusted_scaled_rotation = (adjusted_scaled_rotation % 4)
+    count = (6 - modulo_adjusted_scaled_rotation) % 4
+
+    for x in range(count):
         if sys.version_info >= (3, 0):
             rotated_pixel_map = list(zip(*rotated_pixel_map[::-1]))
         else:
@@ -372,7 +379,7 @@ def get_pixel(x, y):
 
     global _pixel_map
     
-    return _pixel_map[x][y]
+    return _pixel_map[y][x]
 
 
 def set_pixel(x, y, r, g, b):
@@ -386,7 +393,7 @@ def set_pixel(x, y, r, g, b):
     global _pixel_map
 
     new_r, new_g, new_b = _adjust_r_g_b_for_brightness_correction(r, g, b)
-    _pixel_map[x][y] = [new_r, new_g, new_b]
+    _pixel_map[y][x] = [new_r, new_g, new_b]
 
 
 def set_all(r, g, b):
