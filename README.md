@@ -20,7 +20,7 @@ The pi-topPULSE accessory is available to purchase from the [pi-top website](htt
 
 ## Quick Start <a name="quick-start"></a>
 ### pi-topOS
-* Boot into pi-topOS (released on or after 13-07-2017)
+* Boot into pi-topOS (released on or after 12-07-2017)
 * Plug in pi-topPULSE
 * Follow on-screen instructions, if necessary
 * Enjoy!
@@ -46,7 +46,7 @@ pi-topPULSE is a 7x7 LED array, a speaker and a microphone. Additionally the dev
 ## Software <a name="software"></a>
 ### pi-topPULSE on pi-topOS <a name="software-pt-os"></a>
 
-All pi-topPULSE software and libraries are included and configured 'out-of-the-box' as standard on pi-topOS (released on or after 13-07-2017). Simply connect a pi-topPULSE to your pi-top, reboot if instructed to do so, and it will be automatically initialised and ready to produce light, capture and play audio. Volume control is handled by the operating system.
+All pi-topPULSE software and libraries are included and configured 'out-of-the-box' as standard on pi-topOS (released on or after 12-07-2017). Simply connect a pi-topPULSE to your pi-top, reboot if instructed to do so, and it will be automatically initialised and ready to produce light, capture and play audio. Volume control is handled by the operating system.
 
 Download the latest version of pi-topOS at [https://pi-top.com/products/dashboard#download](https://pi-top.com/products/dashboard#download).
 
