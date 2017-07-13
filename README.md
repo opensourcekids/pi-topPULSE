@@ -23,7 +23,7 @@ The pi-topPULSE accessory is available to purchase from the [pi-top website](htt
 * Boot into pi-topOS (released on or after 12-07-2017)
 * Plug in pi-topPULSE
 * Follow on-screen instructions, if necessary
-* Enjoy!
+* Enjoy - check out the [examples](https://github.com/pi-top/pi-topPULSE/tree/master/examples) to see what you can do! And try asking Alexa questions via pi-topDASHBOARD!
 
 ### Raspbian
 * Run the following commands in the terminal (with an internet connection):
@@ -35,7 +35,7 @@ sudo apt-get install pt-pulse
 
 * Plug in pi-topPULSE
 * Follow on-screen instructions, if necessary
-* Enjoy!
+* Enjoy - check out the [examples](https://github.com/pi-top/pi-topPULSE/tree/master/examples) to see what you can do! See [here](https://github.com/pi-top/Alexa-Voice-Service-Integration) for more on using pi-top's Alexa Voice Service integration.
 
 ## Hardware Overview <a name="hardware"></a>
 
